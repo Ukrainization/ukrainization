@@ -21,3 +21,10 @@ print(result)
 result = to_lowe_case(sentence)
 print(result)
 
+
+# Useful links
+# https://datascience.stackexchange.com/questions/16786/is-there-a-process-flow-to-follow-for-text-analytics
+# https://www.accenture.com/us-en/blogs/search-and-content-analytics-blog/natural-language-processing-techniques
+# TODO: rename linguist folder to => Normalization
+# TODO: add Stemming
+# TODO: Add Remove stop-words
