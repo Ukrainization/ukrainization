@@ -1,5 +1,8 @@
 import string
 
+__version__ = 1.0
+
+
 PUNCTUATION = string.punctuation + string.digits + '«»'
 
 

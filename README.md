@@ -34,3 +34,5 @@ GNU GENERAL PUBLIC LICENSE
 
 1. Korobov M.: *Morphological Analyzer and Generator for Russian and Ukrainian Languages* // Analysis of Images, Social Networks and Texts, pp 320-332 (2015). [Link](https://pypi.org/project/pymorphy2/)
 2. Eunjoo Byeon: *How to Efficiently Remove Punctuations from a String* (2020). [Link](https://towardsdatascience.com/how-to-efficiently-remove-punctuations-from-a-string-899ad4a059fb)
+3. Vladislav Klim: *Ukrainian Stemmer* (Oct 2019). [Link](https://github.com/Desklop/Uk_Stemmer)
+

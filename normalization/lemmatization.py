@@ -1,7 +1,9 @@
 import pymorphy2
 
+__version__ = 1.0
 
-class UkLemmatizer():
+
+class UkLemmatizer:
 
     def __init__(self):
         self.morph = pymorphy2.MorphAnalyzer(lang='uk')
