@@ -1,9 +1,5 @@
-print("hello Ukrainization!!!")
-
-
-from linguist.lemmatization import UkLemmatizer
+from normalization.lemmatization import UkLemmatizer
 from preparator.preparation import remove_punctuation, to_lowe_case
-
 
 lemm = UkLemmatizer()
 
@@ -25,6 +21,6 @@ print(result)
 # Useful links
 # https://datascience.stackexchange.com/questions/16786/is-there-a-process-flow-to-follow-for-text-analytics
 # https://www.accenture.com/us-en/blogs/search-and-content-analytics-blog/natural-language-processing-techniques
-# TODO: rename linguist folder to => Normalization
+# TODO: rename normalization folder to => Normalization
 # TODO: add Stemming
 # TODO: Add Remove stop-words

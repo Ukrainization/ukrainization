@@ -1,5 +1,6 @@
 import pymorphy2
 
+
 class UkLemmatizer():
 
     def __init__(self):
@@ -12,7 +13,6 @@ class UkLemmatizer():
         """
         return self.morph.parse(token)[0].normal_form
 
-    
     def tokens_lemmatization(self, tokens):
         """
         input: tokens list of sentence/text without punctuation
@@ -23,4 +23,3 @@ class UkLemmatizer():
             result = self.morph.parse(word)[0].normal_form
             lemmitized_tokens.append(result)
         return lemmitized_tokens
-

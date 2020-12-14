@@ -13,12 +13,12 @@ pip install https://github.com/Ukrainization/ukrainization.git
 ## Usage
 
 ```python
-from linguist.lemmatization import UkLemmatizer
+from normalization.lemmatization import UkLemmatizer
 
 lemm = UkLemmatizer()
 token = 'чорніє'
 result = lemm.token_lemmatization(token=token)
-print(result) # return 'чорніти'
+print(result)  # return 'чорніти'
 ```
 
 ## Contributing

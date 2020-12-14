@@ -2,6 +2,7 @@ import string
 
 PUNCTUATION = string.punctuation + string.digits + '«»'
 
+
 def remove_punctuation(text_corpus):
     """
     Return text without punctuation
@@ -13,6 +14,6 @@ def remove_punctuation(text_corpus):
 
 def to_lowe_case(text_corpus):
     """
-    Conver upper case to lower case
+    Convert upper case to lower case
     """
     return text_corpus.lower()
