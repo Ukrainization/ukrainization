@@ -76,10 +76,12 @@ class UkStemmer:
         return stemma
 
     def stemWord(self, word):
-        ''' Find the basis (stem) of a word.
+        """"
+        Find the basis (stem) of a word.
         1. word - source word (UTF-8 encoded string)
         2. returns the stemmed form of the word (UTF-8 encoded string)
 
-        This method is used to simulate the PyStemmer interface (https://github.com/snowballstem/pystemmer). '''
+        This method is used to simulate the PyStemmer interface (https://github.com/snowballstem/pystemmer).
+        """
 
         return self.stem_word(word)
